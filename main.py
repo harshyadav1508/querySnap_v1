@@ -42,7 +42,7 @@ def call_gemini_api(image_path):
         img = Image.open(image_path)
         # --- NOTE: Consider using a more recent/appropriate model if available ---
         # E.g., "gemini-1.5-flash" or "gemini-1.5-pro" might offer better results
-        model = genai.GenerativeModel("gemini-1.5-flash") # Example: Using 1.5 flash
+        model = genai.GenerativeModel("gemini-2.0-flash") # Example: Using 1.5 flash
         prompt = """
         You are an expert Python programmer specializing in Data Structures and Algorithms (DSA).
         Analyze the provided image containing a programming question.
