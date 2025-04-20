@@ -1,0 +1,6 @@
+flask
+pyautogui
+pynput
+google-generativeai
+pillow
+dotenv
